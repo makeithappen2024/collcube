@@ -1,0 +1,241 @@
+body{
+	width: 353px;
+	height: 100%;
+	margin: 0 0;
+	background-image: url('background_main_page2.png');
+	background-repeat: repeat;
+	background-size: cover;
+	background-size: 117%;
+	background-position: top; 
+}
+
+header{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.mainImg{
+	position: fixed;
+	top: 10px;
+	left: 10px;
+}
+.mainHeader, .collHeader{
+	font-size: 30px;
+	text-align: center;
+	color: #FF6200; 
+	font-family: 'Rouge Script', cursive; 
+	font-weight: normal; 
+	line-height: 30px;  
+	text-shadow: 1px 1px 2px #082b34;
+	text-decoration: underline;
+	letter-spacing: 10px;
+	margin: 0 0;
+}
+.mainHeader{
+	padding-top: 15px;
+	margin-left: 60px;
+}
+.mainHeaderCG, .collHeader{
+	text-transform: uppercase;
+}
+.menu{
+	margin: 150px 0px 220px 0px;
+	display: grid;
+	grid-template-columns: 150px 150px;
+	grid-template-rows: 150px 150px;
+	grid-gap: 20px;
+	align-items: center;
+	justify-content: center;
+}
+.menuItem{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 20px;
+	font-weight: 800;
+	color: #4D1E00;
+	text-shadow: 1px 1px 2px black;
+	letter-spacing: 3px;
+	line-height: 30px;
+	width: 150px;
+	height: 150px;
+	border: 2px solid black;
+	border-radius: 20px;
+	background: rgba(255, 98, 0, 0.6);
+	box-shadow: 2px 3px 5px #706666;
+	transition: 0.4s;
+}
+.menuItem:hover, .collDownload:hover{
+	cursor: pointer;
+	box-shadow: inset 2px 2px 5px #706666;
+	transform: scale(0.95);
+}
+
+.collMenuHeader{
+	font-size: 30px;
+}
+.collMenuLink{
+		color: #4D1E00;
+		text-decoration: none;
+		width: 100px;
+}
+.collMenu{
+display: flex;
+flex-flow: column nowrap;
+justify-content: center;
+margin-bottom: 50px;
+}
+.collMenuBar{
+display: flex;
+flex-wrap: nowrap;
+justify-content: flex-end;
+margin-bottom: 20px;
+}
+.collHeader {
+	margin: 0 0 ;
+	padding-top: 15px;
+}
+.collDownload{
+	width: 100px;
+	height: 30px;
+	background: #88BFEA;
+	border: 1px solid black;
+	margin: 15px 10px 0 20px;
+	border-radius: 7px;
+	text-align: center;
+	font-size: 15px;
+	font-weight: 600;
+	line-height: 30px;
+	text-transform: uppercase;
+	box-shadow: 2px 3px 5px #706666;
+	transition: 0.3s;
+}
+.pdfColl{
+	color: black;
+	text-decoration: none;
+
+}
+.collMenuItem{
+height: 100px;
+padding: 10px 0 10px 10px;
+box-sizing: border-box;
+margin: 12px 12px 0 12px;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+box-shadow: 2px 4px 3px grey;
+background: rgba(255, 98, 0, 0.6);
+transition: 0.3s;
+transform: scale(0.98);
+}
+.collMenuItem:hover{
+cursor: pointer;
+box-shadow:  3px 2px 5px #706666;
+transform: scale(1.0);
+}
+
+.caseExample{
+	width: 80px;
+	height: 80px;
+	border: none;
+	margin-left: 10px;
+	display: grid;
+	grid-template-columns: 8px 21px 21px 21px 8px;
+	grid-template-rows: 8px 21px 21px 21px 8px;
+	justify-content: center;
+	align-items: center;
+	transform: scale(1.2);
+}
+.square{
+	height: 21px;
+	width: 21px;
+	border: 0.5px solid black;
+	box-sizing: border-box;
+}
+.yellowSquare{
+	background: #DDD24A;
+}
+.greySquare{
+	background: grey;
+}
+.blueSquare{
+	background: #2C5AAE;
+}
+.greenSquare{
+	background: #47B730;
+}
+.redSquare{
+	background: #FF4E4E;
+}
+.orangeSquare{
+	background: #E78731;
+}
+.BottomSquare{
+	margin: 0 auto;
+	height: 8px;
+	width: 21px;
+}
+.dash{
+	background: #DDD24A;
+	margin: 0 auto;
+	box-shadow: 0.5px 0.5px 1.5px black;
+	box-sizing: border-box;
+}
+.horizontalDash{
+	height: 3px;
+	width: 21px;
+}
+.verticalDash{
+	height: 21px;
+	width: 3px;
+}
+.emptyCell{
+	width: 0px;
+}
+h2{
+	width: 200px;
+	margin-left: 5px;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 20px;
+	font-weight: 800;
+	color: #4D1E00;
+	text-shadow: 1px 1px 2px black;
+	letter-spacing: 3px;
+	line-height: 30px;
+}
+.triangleSelectorMenu{
+	width: 0px;
+	height: 0px;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 15px solid black;
+	border-radius: 3px;
+}
+
+.groupCard{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+	width: 300px;
+	height: 530px;
+	background: rgba(255, 98, 0, 0.6);
+	margin: 0 auto;
+	padding: 0;
+	box-shadow:  3px 2px 5px #706666;
+}
+
+.caseStyle{
+	display: grid;
+	grid-template-columns: 8px 21px 21px 21px 8px;
+	grid-template-rows: 8px 21px 21px 21px 8px;
+	justify-content: center;
+	align-items: center;
+	transform: scale(1.6);
+	padding: 0;
+	margin: auto 30px;
+}
